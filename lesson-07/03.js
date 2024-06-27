@@ -16,5 +16,3 @@ function truncate(str, maxLength) {
 
   return str.slice(0, maxLength) + '...'
 }
-
-console.log(truncate("1234567890", 10))
